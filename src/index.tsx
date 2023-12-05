@@ -14,6 +14,7 @@ const router = createBrowserRouter([
     {
         element: <App />,
         // errorElement: <ErrorPage />,
+        
         children: [
             {
                 path: '/',
@@ -28,8 +29,8 @@ const router = createBrowserRouter([
                 element: <SingleProductPage />,
             },
         ],
-    },
-])
+    }
+], {basename: "/mfisli.github.io/React-Typescript-Redux-Jest-Bootstrap/"})
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement)
 root.render(

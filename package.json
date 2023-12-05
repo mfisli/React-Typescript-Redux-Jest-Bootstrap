@@ -1,8 +1,8 @@
 {
+    "homepage": "https://mfisli.github.io/React-Typescript-Redux-Jest-Bootstrap",
     "name": "react-typescript-redux-bootstrap-jest",
     "version": "0.1.0",
     "private": true,
-    "homepage": "https://mfisli.github.io/React-Typescript-Redux-Jest-Bootstrap",
     "dependencies": {
         "@reduxjs/toolkit": "^1.9.7",
         "@testing-library/jest-dom": "^5.17.0",
