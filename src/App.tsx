@@ -1,26 +1,18 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './App.scss'
+import Navigation from './features/navigation/Navigation'
+import { Outlet } from 'react-router-dom'
+import Footer from './features/footer/Footer'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const App: React.FC = () => {
+    return (
+        <main>
+            <Navigation />
+            <Outlet />
+            <div className="mt-5">
+                <Footer />
+            </div>
+        </main>
+    )
 }
 
-export default App;
+export default App
