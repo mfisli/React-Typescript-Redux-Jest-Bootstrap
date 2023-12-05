@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/mfisli/React-Typescript-Redux-Jest-Bootstrap/static/css/main.b30a44f7.css",
+    "main.js": "/mfisli/React-Typescript-Redux-Jest-Bootstrap/static/js/main.06ce7bea.js",
+    "static/js/787.0885dbb5.chunk.js": "/mfisli/React-Typescript-Redux-Jest-Bootstrap/static/js/787.0885dbb5.chunk.js",
+    "index.html": "/mfisli/React-Typescript-Redux-Jest-Bootstrap/index.html",
+    "main.b30a44f7.css.map": "/mfisli/React-Typescript-Redux-Jest-Bootstrap/static/css/main.b30a44f7.css.map",
+    "main.06ce7bea.js.map": "/mfisli/React-Typescript-Redux-Jest-Bootstrap/static/js/main.06ce7bea.js.map",
+    "787.0885dbb5.chunk.js.map": "/mfisli/React-Typescript-Redux-Jest-Bootstrap/static/js/787.0885dbb5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b30a44f7.css",
+    "static/js/main.06ce7bea.js"
+  ]
+}
